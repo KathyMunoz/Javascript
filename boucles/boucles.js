@@ -11,3 +11,6 @@ while (i<10) {
 //exercise calculer une moyenne + for
 
 
+function moyenne (array) {
+    for (let i=0 ; i<array.length ; i++);
+}
