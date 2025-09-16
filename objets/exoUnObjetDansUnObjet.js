@@ -37,4 +37,20 @@ let bibliotheque = {
         }
 }
 // un objet film (vide) et vous allez devoir ajouter 4 clés avec valeurs en dehors de l'objet film
+
+let film = {};
+
+film.titre = "Inception";// ou aussi fim["titre"] = "Inception"; (deux façon pour ajouter des propietes)
+film.realisateur = "Christopher Nolan";
+film.annee = 2010;
+film.genre = "Science-Fiction";
+console.log(film);
 // un objet de votre choix ou vous allez devoir créer et justifier 4 clés/valeurs (avec des commentaires).
+let etudiant = {};//creation objet etudiant
+
+etudiant.nom = "Dupont"; // Nom etudiant->chaine de caracteres//on choisi un string car un nom est un texte
+etudiant.age = 21;//Age etudiant->nombre//on choisi un number car age est une valeur numerique
+etudiant.matieres = ["Maths", "Informatique", "Histoire"];//array pour stocker plusieurs matieres
+etudiant.estInscrit = true;//boolean pour indiquer V ou F
+console.log(etudiant);
+//resultat= un objet avec 4 propietes de types differents(string, number, array, boolean)
